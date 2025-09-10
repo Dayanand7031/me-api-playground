@@ -121,6 +121,16 @@ React app available at → http://127.0.0.1:5173
   }'
 
 
+# Known Limitations
+
+-- Only supports one profile per database (playground scope).
+
+-- SQLite is file-based → not ideal for production with heavy concurrency.
+
+-- CORS is enabled for frontend → adjust in production as needed.
+
+
+
 
 ## 📄 Resume
 
