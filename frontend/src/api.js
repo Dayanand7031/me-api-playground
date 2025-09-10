@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000", // FastAPI runs on port 8000
+  baseURL: "https://me-api-playground-85ed.onrender.com", // FastAPI runs on port 8000
 });
 
 // ---- Profile CRUD ----
