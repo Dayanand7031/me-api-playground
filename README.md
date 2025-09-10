@@ -8,26 +8,26 @@
 
 -- backend (FastAPI, SQLite, SQLAlchemy, Pydantic)
 -- frontend (React + Vite + Axios)
-┣ backend (FastAPI, SQLite, SQLAlchemy, Pydantic)
-┃ ┣  app
-┃ ┃ ┣ crud.py
-┃ ┃ ┣ database.py
-┃ ┃ ┣ main.py
-┃ ┃ ┣ models.py
-┃ ┃ ┗ schemas.py
-┃ ┗ requirements.txt
-┣ frontend (React + Vite + Axios)
-┃ ┣ src/
+-- ┣ backend (FastAPI, SQLite, SQLAlchemy, Pydantic)
+--  app
+-- ┣ crud.py
+-- ┣ database.py
+-- ┣ main.py
+-- ┣ models.py
+-- ┗ schemas.py
+--┗ requirements.txt
+--frontend (React + Vite + Axios)
+-- ┣ src/
        component/
        profileform.jsx
        profileview.jsx
        profileList.jsx
        SearchBar.jsx
     api.js
-┃ ┣ package.json
-┃ ┗ vite.config.js
-┗ README.md
--- frontend (React + Vite + Axios)
+--┣ package.json
+--┗ vite.config.js
+-- README.md
+
 
 
 
