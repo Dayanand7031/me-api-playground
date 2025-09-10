@@ -17,7 +17,7 @@ app = FastAPI()
 # Allow frontend requests (adjust origin if needed)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # or ["http://localhost:5173"] for Vite
+    allow_origins=["https://me-api-playground-3-gtnl.onrender.com/"],  # or ["http://localhost:5173"] for Vite
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
